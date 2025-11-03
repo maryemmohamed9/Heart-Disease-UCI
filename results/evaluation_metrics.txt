@@ -1,16 +1,33 @@
-## Baseline Accuracy:
-Logistic Regression: 0.9167
-Decision Tree: 0.7667
-Random Forest: 0.8833
-SVM: 0.9333
+==============================
+   BASELINE ACCURACY
+==============================
+Logistic Regression : 0.9167
+Decision Tree       : 0.7667
+Random Forest       : 0.8833
+SVM                 : 0.9333
 
-## Tuned Model Performance:
-Random Forest (Tuned): 0.8833
-SVM (Tuned): 0.8833
+==============================
+   TUNED MODEL PERFORMANCE
+==============================
+Random Forest (Tuned) : 0.8833
+SVM (Tuned)           : 0.8833
 
-## Best Parameters:
-Random Forest: {'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
-SVM: {'C': 7.42, 'kernel': 'linear', 'gamma': 'scale'}
+==============================
+   BEST PARAMETERS
+==============================
+Random Forest :
+    max_depth = 5
+    min_samples_leaf = 2
+    min_samples_split = 2
+    n_estimators = 200
 
-## Conclusion:
-Both Random Forest and SVM performed similarly with improved stability and generalization after tuning.
+SVM :
+    C = 7.42
+    kernel = linear
+    gamma = scale
+
+==============================
+   CONCLUSION
+==============================
+Both Random Forest and SVM performed similarly with improved 
+stability and generalization after tuning.
