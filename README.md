@@ -47,15 +47,14 @@ It covers the full ML lifecycle — from **data preprocessing and feature engine
 - Optimize model hyperparameters using GridSearchCV and RandomizedSearchCV.
 
 ### **Step 7 – Model Export**
-- Save the final optimized model as `best_model.pkl`.
+- Save the final optimized model as `Final_model.pkl`.
 
 ## 4. Installation & Usage
 ### **Step 1 – Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/heart-disease-project.git
-cd heart-disease-project
+git clone https://github.com/maryemmohamed9/heart-disease-UCI.git
+cd heart-disease-UCI
 Step 2 – Install Dependencies
-bash
 Copy code
 pip install -r requirements.txt
 Step 3 – Run Notebooks
